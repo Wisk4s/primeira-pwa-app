@@ -14,8 +14,21 @@
         <script src='./js/js.js'></script>
     </head>
     <body>
-        <div class="container">
-            <h1 class="title">Minha Primeira PWA</h1>
+        <form method="post" action="">
+            <p><label for="txtPeso">Digite seu peso ⬇</label><br/>
+               <input type="text" class="inputpeso" id="txtPeso"/></p>
+            <p>
+              <label for="txtAltura">Digite sua altura ⬇</label><br/>
+              <input type="text" class="inputaltura" id="txtAltura"/>
+          </p>
+        </form>  
+      
+        <div class="divIMC">
+            <h1 class="titleIMC" id="resultado">Seu IMC</h1>
         </div>
+
+        <h1 class="titleCalcular" id="diagnostico">Clique em "Calcular" para calcular seu IMC</h1>
+      
+        <button onclick="calcularIMC()">Calcular</button>
     </body>
     </html>
