@@ -36,6 +36,39 @@ html, .fullscreen{
     font-family: monospace;
 }
 
+.inputnome{
+    border: 1px solid white;
+    box-shadow: grey 3px 3px 1px 2px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+    font-family: monospace;
+}
+
+.inputidade{
+    border: 1px solid white;
+    box-shadow: grey 3px 3px 1px 2px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+    font-family: monospace;
+}
+
+.inputsexo{
+    border: 1px solid white;
+    box-shadow: grey 3px 3px 1px 2px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+    font-family: monospace;
+}
+
 .divIMC{
     margin-top: 40px;
     margin-bottom: 20px;
